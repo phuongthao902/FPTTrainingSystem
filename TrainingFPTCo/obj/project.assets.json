@@ -4565,11 +4565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Downloads\\Code_AD.Dat\\Code_AD.Dat\\TrainingFPTCo\\TrainingFPTCo.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Downloads\\Code_AD\\Code_AD_PhuongThao\\TrainingFPTCo\\TrainingFPTCo.csproj",
       "projectName": "TrainingFPTCo",
-      "projectPath": "C:\\Users\\DELL\\Downloads\\Code_AD.Dat\\Code_AD.Dat\\TrainingFPTCo\\TrainingFPTCo.csproj",
+      "projectPath": "C:\\Users\\DELL\\Downloads\\Code_AD\\Code_AD_PhuongThao\\TrainingFPTCo\\TrainingFPTCo.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Downloads\\Code_AD.Dat\\Code_AD.Dat\\TrainingFPTCo\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Downloads\\Code_AD\\Code_AD_PhuongThao\\TrainingFPTCo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

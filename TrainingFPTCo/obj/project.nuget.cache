@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6LBTgYax+vojkeNW91Z5xw3VL2CxPpz2BEoA9SlmfdmJcYwy3+5W0ecJHDVvKAJ92jFc/sF9+00zjIIkwpAiug==",
+  "dgSpecHash": "M1KedOw2O2u4QW9uwpfbOxt0FcOCWN4j6m794+we/eeHrMberD84SWKaYB98ma3Q698w3VXyEbCDX8G7PssWdw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Downloads\\Code_AD.Dat\\Code_AD.Dat\\TrainingFPTCo\\TrainingFPTCo.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Downloads\\Code_AD\\Code_AD_PhuongThao\\TrainingFPTCo\\TrainingFPTCo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

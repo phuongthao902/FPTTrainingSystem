@@ -71,7 +71,7 @@
                 <div class="text-danger my-3"> Edit Failure</div>
             }
         }
-        <table class="table table-bordered table-striped mt-3">
+        <table class="table table-bordered table-striped mt-3 overflow-auto">
             <thead class="table-primary">
                 <tr>
                     <th>ID</th>
@@ -96,35 +96,31 @@
                         <td>@item.Name</td>
                         <td>@item.ViewCourseName</td>
                         <td>
-                            <iframe src="/uploads/documents/@item.ViewDocumentTopic" width="250" height=auto></iframe>
+                            <video src="/upload/videos/@item.Document" controls style="max-width: 300px; max-height: 300px; width: 300px; height: 200px;">
+                            </video>
 
                         </td>
+
                         <td>
-                            @if (!string.IsNullOrEmpty(item.ViewAttachFileTopic))
-                            {
-                                <embed src="/uploads/videos/@item.ViewAttachFileTopic" width="150" controls />
-
-
-                            }
-                            else
-                            {
-                                <p>There is no AttachFile  </p>
-                            }
+                            <video src="/assets/videos/@item.Document" controls style="max-width: 300px; max-height: 300px; width: 300px; height: 200px;">
+                            </video>
                         </td>
                         <td width="15%">
                             <img class="img-fluid img-thumbnail" alt="@item.Name" src="/uploads/images/@item.ViewPosterTopic" />
                         </td>
                         <td>
-                            <a href="/uploads/documents/@item.ViewDocumentTopic" download>Download Document</a>
+                            <a href="/uploads/documents/@item.ViewDocumentTopic" download>Download</a>
                             <br />
 
                         </td>
+                      @*   <td class="attachFile">
+                                @item.AttachFile
+
+                        </td> *@
                         <td>@item.Description</td>
                         <td>@item.Status</td>
                         <td>
                             <a class="btn btn-info btn-sm" href="@Url.Action("Update", "Topic",new {id = item.Id})"> Edit</a>
-                        </td>
-                        <td>
                             <button id="@item.Id" class="btn btn-danger btn-sm js-delete-topic"> Delete</button>
                         </td>
                     </tr>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrainingFPTCo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6067803ffd62ca22088c94e11dca19d04c52c4d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd95a491867fbe123892fe8967fa1a3c505ea895")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrainingFPTCo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrainingFPTCo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
